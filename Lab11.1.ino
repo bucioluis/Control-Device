@@ -9,6 +9,7 @@ int deviceState = OFF;
 void setup() {
   // put your setup code here, to run once:
   pinMode(BUTTON, INPUT_PULLUP);
+  Serial.begin(9600);
 
 }
 
@@ -20,6 +21,7 @@ void loop() {
       //debounce sanctum
       deviceState++;
       deviceState = deviceState % 3;
+      Serial.println(deviceState);
     }
  }
     
