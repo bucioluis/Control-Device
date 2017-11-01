@@ -1,3 +1,4 @@
+// Main Components
 #define trigPin 7
 #define echoPin 6
 #define led 13
@@ -10,6 +11,7 @@
 
 int sound = 250;
 
+// Current working on the project
 void setup() {
   Serial.begin (9600);
   pinMode(trigPin, OUTPUT);
