@@ -1,4 +1,8 @@
 // 15 Nov 2017 Lab before Thanksgiving Break
+// Learned about 
+// Volatile
+// Interrupt Service Routine
+// Vector
 
 const byte ledPin = 11;
 const byte interruptPin = 2;
