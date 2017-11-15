@@ -1,0 +1,74 @@
+#define OFF 0
+#define ON 1
+#define BLINK 2
+
+#define BUTTON 2
+#define LED 13
+#define INIT 0
+#define RUN 1
+#define EXIT 2
+int phase = init;
+bool check_button_push(void);
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+//switch is used as a cleaner way of doing if else statements
+void loop() {
+  // put your main code here, to run repeatedly:
+  switch (state) (
+    case OFF:
+      switch (phase) {
+        case INIT;
+          digitalWrite(LED, OFF);
+          phase = RUN;
+          break;
+
+        case RUN:
+          if(check_button_push()) {
+            phase = EXIT;
+          }
+          break;
+
+        case EXIT:
+          state = ON;
+          phase = init;
+          break;
+      }
+      break;
+
+    case ON:
+    
+    break;
+
+    case BLINK:
+      switch (phase) {
+    case INIT;
+          timestamp 
+          phase = RUN;
+          break;
+
+        case RUN:
+          if(check_button_push()) {
+            phase = EXIT;
+          }
+          break;
+
+        case EXIT:
+          state = ON;
+          phase = init;
+          break;
+    break;
+}
+}
+
+bool check_button_push(void) {
+  if(digitialRead(BUTTON == LOW) {
+    delay(DEBOUNCE_DELAY);
+  if(digitalRead(BUTTON) == LOW) {
+    return true;
+    }
+  }
+  return false;
+}
