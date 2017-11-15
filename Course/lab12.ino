@@ -1,4 +1,4 @@
-// 15 Nov 2017
+// 15 Nov 2017 Lab before Thanksgiving Break
 
 const byte ledPin = 11;
 const byte interruptPin = 2;
