@@ -35,3 +35,5 @@ else if distance < 5 cm then set sound = 300
 if distance > 30 || distance <= 0 then print "Out of Range" and no alarm to both sound and sensor
  
 else set digitalWrite(led, LOW)
+
+
