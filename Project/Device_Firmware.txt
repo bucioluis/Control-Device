@@ -4,8 +4,8 @@ Components of device through the LED Lights, Buzzer, and Pins
 Set up pins
 Set the sound = 250
 Create a setup() function
-  -Serial.begin()
-  -pinMode()
+  - Serial.begin()
+  - pinMode()
 
 Create a loop() function
   - digitalWrite()
@@ -32,7 +32,7 @@ else if distance < 10 cm then set sound = 290
 else if distance < 5 cm then set sound = 300
   set digitalWrite(led, HIGH)
   
-if distance > 30 || distance <= 0 then print "Out of Range" and no alarm to both sound and sensor
+if distance > 30 || distance <= 0cm then print "Out of Range" and no alarm to both sound and sensor
  
 else set digitalWrite(led, LOW)
 
