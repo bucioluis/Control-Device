@@ -36,3 +36,4 @@ void loop() {
   duration = pulseIn(echoPin, HIGH);
   distance = (duration/2) / 29.1;
  
+ // Process of how does the blink works while using the device
