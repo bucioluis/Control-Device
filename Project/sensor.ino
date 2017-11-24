@@ -35,4 +35,5 @@ void loop() {
   digitalWrite(trigPin, LOW);
   duration = pulseIn(echoPin, HIGH);
   distance = (duration/2) / 29.1;
- 
+  
+// Process of how does the senor works when using the device
