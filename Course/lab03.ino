@@ -1,5 +1,5 @@
 /* Ardino Lab 4
- * Arthor Jose Bucio
+ * Author Jose Bucio
  * Date 27 September 2017
  * 
  * 
@@ -38,16 +38,7 @@ void loop() {
     delay(DEBOUNCE_DELAY);
     if(digitalRead(BUTTON_PIN) == LOW){
       ledState != ledState;
-      
     }
-   //ledState != ledState;
-  } 
-  /*
-   * if(){
-   * }
-  
-  */
-
   digitalWrite(LED_OUTPUT, ledState);
   
 }
