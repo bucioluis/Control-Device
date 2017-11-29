@@ -1,39 +1,9 @@
 Arduino / C/C++ style pseudocode
 
-Components of device through the LED Lights, Buzzer, and Pins
-Set up pins
-Set the sound = 250
-Create a setup() function
-  - Serial.begin()
-  - pinMode()
-
-Create a loop() function
-  - digitalWrite()
-  - delayMicrosecond()
-  duration = pulseIn()
-  distance = (duration / 2) / 30
-
-//Begin decrement distance and increment the sound
-if distance <= 30 cm then set sound = 250 
-  set digitalWrite(led, HIGH)
-  
-else if distance < 25 cm then set sound = 260 
-  set digitalWrite(led, HIGH)
-  
-else if distance < 20 cm then set sound = 270 
-  set digitalWrite(led, HIGH)
-  
-else if distance < 15 cm then set sound = 280 
-  set digitalWrite(led, HIGH)
-  
-else if distance < 10 cm then set sound = 290 
-  set digitalWrite(led, HIGH)
-  
-else if distance < 5 cm then set sound = 300
-  set digitalWrite(led, HIGH)
-  
-if distance > 30 || distance <= 0cm then print "Out of Range" and no alarm to both sound and sensor
- 
-else set digitalWrite(led, LOW)
-
-
+Code for 
+* UltraSonic Sensor
+* LED (Blink and Non-Blink)
+* Power Switch - For the LED
+* Switch (For switch)
+* Main Index (Partner gave it to me)
+* Distance Detector
