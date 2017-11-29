@@ -93,7 +93,7 @@ if (distance < 5) {
   }
   else {
     Serial.print(distance);
-    Serial.println(" cm");
+    Serial.println(" inch");
     tone(buzzer, sound);
    
   }
