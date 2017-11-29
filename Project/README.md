@@ -1,3 +1,4 @@
-Hello,
+# Control Device Project
 
-If you are reading this, you enter one of my projects that I am current developing. My project involves creating a back-up device of a vehicl either a bicycle or a car. 
+## Purpose of the Project
+Learn to use Arudino and hands on experience with hardware supplies. Introduction to Electrical Engineering and Computer Science for anyone who is new to hardware and software. 
