@@ -7,3 +7,7 @@ Learn to use Arudino and hands on experience with hardware supplies. Introductio
 * Arudino Kit
 * EagleCAD
 * C/C++ Programming
+
+### Contribution
+* Jordan Williams
+* Jose Bucio
