@@ -1,0 +1,58 @@
+* Credit goes to my lab partner Jordan Williams
+Setup
+trigPin initialized to pin 8
+echoPin initialized to pin  9
+beepPin initialized to pin 10
+LED green1 initialized to pin 2
+LED green2 initialized to pin 3
+LED green3 initialized to pin 4
+LED yellow1 initialized to pin 5
+LED yellow2 initialized to pin 6
+LED yellow3 initialized to pin 7
+LED red1 initialized to pin 11
+LED red2 initialized to pin 12
+LED red3 initialized to pin 13
+Initialize long distance and long duration
+Define trigPin and beepPin as outputs
+Define echoPin as an input
+Define all 9 LED’s as outputs.
+ 
+Loop
+trigPin  turned on
+Delay for 10 microseconds
+trigPin turned off
+ 
+ duration equals the time it takes for echoPin to receive the soundwave
+distance in cm equals duration divided by 58.2  
+ 
+If distance is less than 30 cm
+            	9 LEDs turn on
+            	Beeps at 900 hertz with 5 milliseconds between beeps
+Else if distance is less than 60 cm
+            	8 LEDs turn on
+            	Beeps at 900 hertz with 10 milliseconds between beeps
+Else if distance is less than 90 cm
+            	7 LEDs turn on
+            	Beeps at 900 hertz with 15 milliseconds between beeps
+Else if distance is less than 120 cm
+            	6 LEDs turn on
+            	Beeps at 700 hertz with 20 milliseconds between beeps
+Else if distance is less than 150 cm
+            	5 LEDs turn on
+            	Beeps at 700 hertz with 25 milliseconds between beeps
+Else if distance is less than 180 cm
+            	4 LEDs turn on
+            	Beeps at 900 hertz with 30 milliseconds between beeps
+Else if distance is less than 210 cm
+            	3 LEDs turn on
+            	Beeps at 500 hertz with 35 milliseconds between beeps
+Else if distance is less than 240 cm
+            	2 LEDs turn on
+            	Beeps at 500 hertz with 40 milliseconds between beeps
+Else if distance is less than or equal to 270 cm
+            	1 LED turns on
+            	Beeps at 500 hertz with 45 milliseconds between beeps
+Else if distance is greater than 270 cm
+            	All LEDs turn off
+            	No beeps
+delay 50 milliseconds
